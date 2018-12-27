@@ -2,7 +2,15 @@
 #mercurial and git commands
 
 https://confluence.atlassian.com/get-started-with-bitbucket/git-and-mercurial-commands-860009656.html
+
 #for android view construtors deep dive
 https://blog.danlew.net/2016/07/19/a-deep-dive-into-android-view-constructors/
+
+#for learning custom animation for recyclerview
 https://github.com/wasabeef/recyclerview-animators
+
+#for help/quicktour screens
 https://github.com/TakuSemba/Spotlight
+
+#new stuff and custom view learning
+https://github.com/daimajia
