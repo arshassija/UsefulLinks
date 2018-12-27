@@ -4,3 +4,5 @@
 https://confluence.atlassian.com/get-started-with-bitbucket/git-and-mercurial-commands-860009656.html
 #for android view construtors deep dive
 https://blog.danlew.net/2016/07/19/a-deep-dive-into-android-view-constructors/
+https://github.com/wasabeef/recyclerview-animators
+https://github.com/TakuSemba/Spotlight
