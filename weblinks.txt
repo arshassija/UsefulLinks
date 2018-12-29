@@ -14,3 +14,6 @@ https://github.com/TakuSemba/Spotlight
 
 #new stuff and custom view learning
 https://github.com/daimajia
+
+#mastering markdown(.md)
+https://guides.github.com/features/mastering-markdown/
