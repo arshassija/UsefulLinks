@@ -17,3 +17,6 @@ https://github.com/daimajia
 
 #mastering markdown(.md)
 https://guides.github.com/features/mastering-markdown/
+
+#creating ubuntu shortcuts
+https://askubuntu.com/a/899562
