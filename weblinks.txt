@@ -19,4 +19,4 @@ https://github.com/daimajia
 https://guides.github.com/features/mastering-markdown/
 
 #creating ubuntu shortcuts
-https://askubuntu.com/a/899562
+https://askubuntu.com/a/1017300
