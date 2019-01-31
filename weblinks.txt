@@ -20,3 +20,6 @@ https://guides.github.com/features/mastering-markdown/
 
 #creating ubuntu shortcuts
 https://askubuntu.com/a/1017300
+
+#New Life-cycle of Activity and Fragments
+https://stackoverflow.com/a/36340059/7240763
