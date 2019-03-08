@@ -26,3 +26,18 @@ https://stackoverflow.com/a/36340059/7240763
 
 #Launch Modes
 http://androidsrc.net/android-activity-launch-mode-example/
+
+#Ubuntu shortcuts .desktop file content
+[Desktop Entry]
+Encoding=UTF-8
+Version=1.0
+Type=Application
+Name=Android Studio 3.3.2
+Icon=jetbrains-studio.png
+Path=/home/arshdeep/android-studio-3.3.2/bin
+Exec=sh /home/arshdeep/android-studio-3.3.2/bin/studio.sh
+StartupNotify=false
+StartupWMClass=jetbrains-studio
+OnlyShowIn=Unity;
+X-UnityGenerated=true
+Name[en_IN]=Android Studio 3.3.2
