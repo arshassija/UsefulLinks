@@ -41,3 +41,6 @@ StartupWMClass=jetbrains-studio
 OnlyShowIn=Unity;
 X-UnityGenerated=true
 Name[en_IN]=Android Studio 3.3.2
+
+#Notch screen
+https://developer.huawei.com/consumer/en/devservice/doc/30210
