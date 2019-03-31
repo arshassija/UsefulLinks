@@ -47,3 +47,6 @@ https://developer.huawei.com/consumer/en/devservice/doc/30210
 
 #-anydpi vs -nodpi
 https://stackoverflow.com/a/34370735
+
+#compileSdkVersion, minSdkVersion, targetSdkVersion
+https://medium.com/androiddevelopers/picking-your-compilesdkversion-minsdkversion-targetsdkversion-a098a0341ebd
