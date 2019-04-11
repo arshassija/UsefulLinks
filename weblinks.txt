@@ -56,3 +56,4 @@ https://medium.com/mindorks/mastering-android-handler-4f710296bdc6
 
 #setRetainInstance(true)
 https://www.androiddesignpatterns.com/2013/04/retaining-objects-across-config-changes.html
+https://stackoverflow.com/questions/11182180/understanding-fragments-setretaininstanceboolean
