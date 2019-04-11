@@ -53,3 +53,6 @@ https://medium.com/androiddevelopers/picking-your-compilesdkversion-minsdkversio
 
 #Handlers
 https://medium.com/mindorks/mastering-android-handler-4f710296bdc6
+
+#setRetainInstance(true)
+https://www.androiddesignpatterns.com/2013/04/retaining-objects-across-config-changes.html
