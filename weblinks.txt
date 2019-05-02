@@ -64,3 +64,6 @@ https://github.com/Apress/pro-android-3
 
 # Comparable vs Comparator
 https://www.javatpoint.com/difference-between-comparable-and-comparator
+
+# ExoPlayer preview Seekbar
+https://github.com/rubensousa/PreviewSeekBar
