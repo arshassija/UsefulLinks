@@ -67,3 +67,6 @@ https://www.javatpoint.com/difference-between-comparable-and-comparator
 
 # ExoPlayer preview Seekbar
 https://github.com/rubensousa/PreviewSeekBar
+
+#Color tool
+https://material.io/tools/color/#!/?view.left=0&view.right=0&primary.color=FFCDD2
