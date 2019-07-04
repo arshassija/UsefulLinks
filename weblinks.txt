@@ -70,3 +70,6 @@ https://github.com/rubensousa/PreviewSeekBar
 
 #Color tool
 https://material.io/tools/color/#!/?view.left=0&view.right=0&primary.color=FFCDD2
+
+#Java conceptual questions
+https://www.journaldev.com/2366/core-java-interview-questions-and-answers
