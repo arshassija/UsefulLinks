@@ -1,0 +1,5 @@
+# for applying constants/something from other file
+buildscript {
+    apply from: "${rootDir}/constants.gradle"
+    project.apply from: "${rootDir}/constants.gradle"
+}
