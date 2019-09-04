@@ -1,5 +1,15 @@
 # for applying constants/something from other file
 buildscript {
     apply from: "${rootDir}/constants.gradle"
+}
+
+allprojects {
+    repositories {
+        jcenter()
+        maven {
+            url "https://maven.google.com"
+        }
+    }
+
     project.apply from: "${rootDir}/constants.gradle"
 }
