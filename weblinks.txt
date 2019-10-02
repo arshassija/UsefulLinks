@@ -73,3 +73,9 @@ https://material.io/tools/color/#!/?view.left=0&view.right=0&primary.color=FFCDD
 
 #Java conceptual questions
 https://www.journaldev.com/2366/core-java-interview-questions-and-answers
+
+#Install java JDK on ubuntu
+https://askubuntu.com/a/790674
+
+#Generate gradle dependency tree
+https://stackoverflow.com/a/39020703/7240763
