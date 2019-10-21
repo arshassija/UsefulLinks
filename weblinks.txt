@@ -82,3 +82,6 @@ https://stackoverflow.com/a/39020703/7240763
 
 #Custom coordinator Layout behaviour
 https://github.com/klarson2/CustomCoordinatorLayoutBehavior
+
+#Java Annotations Learning
+https://dzone.com/articles/creating-custom-annotations-in-java
