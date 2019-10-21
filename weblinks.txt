@@ -79,3 +79,6 @@ https://askubuntu.com/a/790674
 
 #Generate gradle dependency tree
 https://stackoverflow.com/a/39020703/7240763
+
+#Custom coordinator Layout behaviour
+https://github.com/klarson2/CustomCoordinatorLayoutBehavior
