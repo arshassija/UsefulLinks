@@ -85,3 +85,6 @@ https://github.com/klarson2/CustomCoordinatorLayoutBehavior
 
 #Java Annotations Learning
 https://dzone.com/articles/creating-custom-annotations-in-java
+
+#File Provider Authorities
+https://stackoverflow.com/a/52849797/7240763
