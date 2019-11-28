@@ -88,3 +88,5 @@ https://dzone.com/articles/creating-custom-annotations-in-java
 
 #File Provider Authorities
 https://stackoverflow.com/a/52849797/7240763
+
+adb shell am broadcast -a com.android.vending.INSTALL_REFERRER -n com.money91/org.smc.inputmethod.payboard.receivers.DeepLinkReceiver --es  "token" "sample_token" --es  "source" "banner"
