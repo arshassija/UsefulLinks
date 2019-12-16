@@ -93,3 +93,6 @@ adb shell am broadcast -a com.android.vending.INSTALL_REFERRER -n com.money91/or
 
 MVC
 https://openclassrooms.com/en/courses/4661936-develop-your-first-android-application/4679186-learn-the-model-view-controller-pattern
+
+#Zero width space
+------
