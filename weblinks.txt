@@ -96,3 +96,6 @@ https://openclassrooms.com/en/courses/4661936-develop-your-first-android-applica
 
 #Zero width space
 ------
+
+#classes of problems
+https://www.quora.com/What-are-P-NP-NP-complete-and-NP-hard
