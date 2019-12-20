@@ -1,0 +1,22 @@
+#to show list of databases
+show databases;
+
+#to create a database
+create database {database_name};
+
+#to show selected database
+select database();
+
+#to select or start using a database
+use {database_name};
+
+#to check schema of a table
+describe {database_name}.{table_name};
+describe {table_name};                //if database is already selected
+
+#to show create query of a table
+show create table {database_name}.{table_name};
+show create table {table_name};                //if database is already selected
+
+
+
