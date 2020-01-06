@@ -102,3 +102,9 @@ https://www.quora.com/What-are-P-NP-NP-complete-and-NP-hard
 
 #zip unzip .aar file
 https://stackoverflow.com/a/38861263/7240763
+
+#git aliases
+https://stackoverflow.com/a/2553799/7240763
+
+#proguard keep rules
+https://www.guardsquare.com/en/products/proguard/manual/usage#optimizationoptions
