@@ -108,3 +108,6 @@ https://stackoverflow.com/a/2553799/7240763
 
 #proguard keep rules
 https://www.guardsquare.com/en/products/proguard/manual/usage#optimizationoptions
+
+#Decompilers
+https://reverseengineering.stackexchange.com/a/19032
