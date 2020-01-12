@@ -1,0 +1,2 @@
+#printing merged proguard file
+-printconfiguration proguard-merged-config.txt
