@@ -111,3 +111,5 @@ https://www.guardsquare.com/en/products/proguard/manual/usage#optimizationoption
 
 #Decompilers
 https://reverseengineering.stackexchange.com/a/19032
+
+#gradle DSL options in android
