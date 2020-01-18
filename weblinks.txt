@@ -113,3 +113,4 @@ https://www.guardsquare.com/en/products/proguard/manual/usage#optimizationoption
 https://reverseengineering.stackexchange.com/a/19032
 
 #gradle DSL options in android
+https://google.github.io/android-gradle-dsl/current/
