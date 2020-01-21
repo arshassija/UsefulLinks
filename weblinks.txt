@@ -114,3 +114,6 @@ https://reverseengineering.stackexchange.com/a/19032
 
 #gradle DSL options in android
 https://google.github.io/android-gradle-dsl/current/
+
+#apk tool installation
+https://ibotpeaches.github.io/Apktool/install/
