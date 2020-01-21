@@ -117,3 +117,6 @@ https://google.github.io/android-gradle-dsl/current/
 
 #apk tool installation
 https://ibotpeaches.github.io/Apktool/install/
+
+#Modify classes.dex files
+https://stackoverflow.com/questions/29562843/modify-classes-dex-and-repack-apk-file
