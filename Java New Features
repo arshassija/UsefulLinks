@@ -1,0 +1,67 @@
+#Java 8 new features
+
+#1. Functional Interfaces
+@java.lang.FunctionalInterface
+public interface MyFunctionalInterface {
+    void method(String arg0);
+}
+
+#2. default methods on interfaces
+public interface MyFactory {
+    MyEntity build(JSONObject obj);
+    default void printThis(List<JSONObject> objects) {
+    
+    }
+}
+
+#3. static interface methods:
+Note : It’s a little bit like default methods, but they can’t be overridden.
+public interface MyInterface {
+    void add(Object obj);
+    Object get(int index);
+    boolean isEmpty();
+    static void printVersion() {
+        System.out.println("0.0.1");
+    }
+}
+
+#4. Lambda expressions and functional interfaces
+interface MyFunctionalInterface {
+    String printThis(String arg);
+}
+
+-----New way-----
+MyFunctionalInterface newWay = arg0 -> {
+        // ... some other code ...
+        return "First argument: " + arg0;
+        };
+        
+-----Old way-----
+MyFunctionalInterface newWay = new MyFunctionalInterface() {
+        @Override
+        public String printThis(String arg0) {
+            return "First argument: " + arg0;
+        }
+    };
+
+
+#5. Method References
+To make lambdas even better you can also use method references which allows us to shortcut method invocations for easier reading your code.
+Instead of calling myInstance.method(arg0) you might use
+myInstance::method if another method expects an lambda as argument:
+
+// OLD
+boolean result = list.forEach(o -> myInstance.method(o));
+// NEW
+boolean result = list.forEach(myInstance::method);
+
+And of course we can use constructors, too, by referencing new:
+list.stream().map(MyEntityClass::new);
+
+#6. Java stream API
+
+#7. Java Time API
+
+
+---sources
+https://medium.com/@benweidig/best-of-java-8-e5aa8cbed673
