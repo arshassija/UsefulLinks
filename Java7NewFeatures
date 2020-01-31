@@ -1,0 +1,74 @@
+#Java 7 new features
+
+
+#1. The try-with-resources statements
+
+----old
+BufferedReader reader = new BufferedReader(...);
+try {
+    reader.readLine();
+    ...
+}
+
+----New
+try (BufferedReader reader = new BufferedReader) {
+    reader.readLine();
+    ...
+}
+
+
+#2. switch with String literals
+Note: The comparison is case-sensitive because String#equals is used. switch statements generate more efficient bytecode compared to lots of chained if-then-else
+
+#3. Binary literal
+integral types (byte, short, int, long) are now as easily declarable as hex-number:
+// Hex is supported prior to java 7
+int asHex = 0x25 // = 37
+// NEW: Binary
+int asBinary = 0b100011 // = 35
+
+Note: We can either use 0b or 0B as prefix, and might left-pad the value with as many zeros as needed.
+The advantage here is that you can better visualize and compare binary variables that might have a direct relationship to another, which wouldn’t be visible in another form of representation.
+
+#4. Improved numeric literals
+// OLD
+long oldCc = 4111111111111111l;
+long oldHex = 0xAAFF23C522;
+long oldBinary = 0b111000010111;
+// NEW 
+long cc = 4111_1111_1111_1111l;
+long hex = 0xAA_FF_23_C5_22;
+long binary = 0b1110_0001_0111;
+
+Note: Some restrictions occur on the placement of the underscore though:
+not at the beginning or end of a number
+not adjacent to the decimal point
+not adjacent to prefixes/suffixes (e.g. 0x, f)
+
+#5. Multiple Exceptions
+// OLD
+try {
+    ...
+} catch (NullPointerException ex) {
+    ...
+} catch (IllegalArgumentException ex) {
+    ...
+}
+// NEW
+try {
+    ...
+} catch (NullPointerException | IllegalArgumentException ex) {
+    ...
+}
+
+#6. Improved generic type inference for creation
+// OLD
+Map<Long, List<String>> map = new HashMap<String, List<String>>();
+// NEW
+Map<Long, List<String>> map = new HashMap<>();
+
+Note: thanks to the diamond operator: <>
+
+
+---source
+https://medium.com/@benweidig/best-of-java-7-96075a1cffc6
