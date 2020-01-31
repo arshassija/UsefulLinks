@@ -65,3 +65,4 @@ list.stream().map(MyEntityClass::new);
 
 ---sources
 https://medium.com/@benweidig/best-of-java-8-e5aa8cbed673
+https://openjdk.java.net/projects/jdk8/features
