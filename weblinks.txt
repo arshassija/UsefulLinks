@@ -123,3 +123,13 @@ https://stackoverflow.com/questions/29562843/modify-classes-dex-and-repack-apk-f
 
 #agora group voice call
 https://github.com/AgoraIO/Basic-Audio-Call
+
+#whatsapp share to a specific contact
+Intent intent = new Intent("android.intent.action.SEND");
+intent.setPackage("com.whatsapp");
+intent.putExtra("jid", "919988705744@s.whatsapp.net");
+intent.putExtra("android.intent.extra.TEXT", "testing");
+intent.setDataAndType(uri, mContext.getContentResolver().getType(uri));
+intent.putExtra("android.intent.extra.STREAM", uri);
+intent.addFlags(Intent.FLAG_GRANT_READ_URI_PERMISSION);
+mContext.startActivity(Intent.createChooser(intent, "Choose an app"));
