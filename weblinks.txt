@@ -133,3 +133,6 @@ intent.setDataAndType(uri, mContext.getContentResolver().getType(uri));
 intent.putExtra("android.intent.extra.STREAM", uri);
 intent.addFlags(Intent.FLAG_GRANT_READ_URI_PERMISSION);
 mContext.startActivity(Intent.createChooser(intent, "Choose an app"));
+
+#Petrol prices
+https://www.goodreturns.in/petrol-price-in-aligarh.html#Historical+Petrol+Price+in+Aligarh
