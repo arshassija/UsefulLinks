@@ -136,3 +136,6 @@ mContext.startActivity(Intent.createChooser(intent, "Choose an app"));
 
 #Petrol prices
 https://www.goodreturns.in/petrol-price-in-aligarh.html#Historical+Petrol+Price+in+Aligarh
+
+#AsyncTask is not a silver bullet
+https://blog.danlew.net/2014/06/21/the-hidden-pitfalls-of-asynctask/
