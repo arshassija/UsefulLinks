@@ -148,3 +148,6 @@ https://github.com/gauravk95/audio-visualizer-android
 
 #generating 11 char signature
 https://stackoverflow.com/a/55829661/7240763
+
+#wake lock android
+wakeLock = powerManager.newWakeLock((PowerManager.SCREEN_BRIGHT_WAKE_LOCK | PowerManager.FULL_WAKE_LOCK | PowerManager.ACQUIRE_CAUSES_WAKEUP ), "M91:wakeLock");
