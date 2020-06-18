@@ -151,3 +151,20 @@ https://stackoverflow.com/a/55829661/7240763
 
 #wake lock android
 wakeLock = powerManager.newWakeLock((PowerManager.SCREEN_BRIGHT_WAKE_LOCK | PowerManager.FULL_WAKE_LOCK | PowerManager.ACQUIRE_CAUSES_WAKEUP ), "M91:wakeLock");
+
+#apk-rename
+applicationVariants.all { variant ->
+        variant.outputs.all { output ->
+            def project = "myProject"
+            def SEP = "_"
+            def flavor = variant.productFlavors[0].name
+            def buildType = variant.variantData.variantConfiguration.buildType.name
+            def version = variant.versionName
+            def date = new Date();
+            def formattedDate = date.format('ddMMyy_HHmm')
+
+            def newApkName = project + SEP + flavor + SEP + buildType + SEP + version + SEP + formattedDate + ".apk"
+
+            outputFileName = new File(newApkName)
+        }
+    }
