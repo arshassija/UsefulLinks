@@ -1,0 +1,41 @@
+What is Coroutine?
+Its a feature in Kotlin that helps us writing asynchronous code in simplified and readable manner.
+It makes writing async code simpler than ever.
+or
+A couroutine is a concurrency design pattern that you can use on android to simplify code that executes asynchronously.
+
+-------------------------------
+
+suspend Modifier
+suspend -> means this functions can suspend and start.
+we add this to our function.... suspend basically mean that this function needs coroutine to execute. we can't call suspend function directly.
+
+suspend fun fetchDataFromNetwork() {
+   val result = networkRequest()
+   updateUI(result)
+}
+
+it looks like synchronous... but it is asynchronous
+
+----------------------------------------
+
+Issue with old one
+scenario : we need to call three apis sequentially. then code structure would be get complex
+
+call1.enqueue(
+   response1 -> call2.enqueue(
+      response2 -> call3.enqueue(
+         response3 -> 
+      )
+   )
+)
+//nested callbacks..... :(
+
+lets convert it to synchronous looking code
+
+for using coroutines with retrofit... min version of retrofit should be 2.6 .
+add "suspend" to function in api interface whom you need to use through coroutine
+and change return type from Callback<T> to Response<T>
+
+
+
