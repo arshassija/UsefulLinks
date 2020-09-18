@@ -176,3 +176,6 @@ applicationVariants.all { variant ->
 
 #pixel calculator website
 https://www.pixelcalculator.com/
+
+#dummy/placeholder apis   ---- create api endpoints
+https://requestbin.com/
