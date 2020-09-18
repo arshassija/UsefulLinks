@@ -173,3 +173,6 @@ applicationVariants.all { variant ->
     #first export path, then run commands
     #https://saurabhsharma123k.blogspot.com/2017/02/generate-so-file-by-using-ndk-and-use.html
     ndk-build NDK_PROJECT_PATH=. NDK_APPLICATION_MK=/home/waheguru/indic/native/jni/Application.mk APP_BUILD_SCRIPT=/home/waheguru/indic/native/jni/Android.mk
+
+#pixel calculator website
+https://www.pixelcalculator.com/
