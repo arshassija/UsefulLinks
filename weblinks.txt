@@ -183,3 +183,4 @@ https://requestbin.com/
 #comparing two commits on gitlab
 https://gitlab.com/$USER/$REPO/compare?from=$SHA1&to=$SHA2
 source : https://stackoverflow.com/a/50070145/7240763
+better source: https://stackoverflow.com/a/58605369/7240763
