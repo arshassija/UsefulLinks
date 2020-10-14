@@ -184,3 +184,6 @@ https://requestbin.com/
 https://gitlab.com/$USER/$REPO/compare?from=$SHA1&to=$SHA2
 source : https://stackoverflow.com/a/50070145/7240763
 better source: https://stackoverflow.com/a/58605369/7240763
+
+#custom views
+https://www.youtube.com/watch?v=sb9OEl4k9Dk
