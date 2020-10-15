@@ -1,4 +1,4 @@
-package org.smc.inputmethod.payboard.shops
+package yourpackage
 
 import android.content.Context
 import android.view.LayoutInflater
@@ -6,7 +6,6 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.annotation.LayoutRes
 import androidx.recyclerview.widget.RecyclerView
-import org.smc.inputmethod.indic.R
 
 abstract class ParentRVAdapter<T : ParentRVAdapter.ParentViewHolder, U : Any?>(val mContext: Context) : RecyclerView.Adapter<T>() {
 
