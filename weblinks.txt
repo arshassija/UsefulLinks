@@ -190,3 +190,6 @@ https://www.youtube.com/watch?v=sb9OEl4k9Dk
 
 #no permission required for picking contact through intent
 https://stackoverflow.com/a/50564536/7240763
+
+#git commands
+https://www.edureka.co/blog/interview-questions/git-interview-questions/
