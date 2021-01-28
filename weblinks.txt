@@ -196,3 +196,14 @@ https://stackoverflow.com/a/50564536/7240763
 
 #git commands
 https://www.edureka.co/blog/interview-questions/git-interview-questions/
+
+
+
+    fun testApi(view: View) {
+        Thread {
+            val url = "https://jsonplaceholder.typicode.com/todos/1"
+            val connection = URL(url).openConnection() as HttpsURLConnection
+            val data = connection.inputStream.bufferedReader().readText()
+            println(data)
+        }.start()
+    }
