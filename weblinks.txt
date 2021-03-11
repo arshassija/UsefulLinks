@@ -209,3 +209,6 @@ https://www.edureka.co/blog/interview-questions/git-interview-questions/
     }
 #alamkanak
 https://alamkanak.github.io/android-libraries-and-resources/
+
+#lottie animations readymade for flat icons
+https://useanimations.com/
