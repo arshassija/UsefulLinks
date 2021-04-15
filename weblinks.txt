@@ -212,3 +212,7 @@ https://alamkanak.github.io/android-libraries-and-resources/
 
 #lottie animations readymade for flat icons
 https://useanimations.com/
+
+#for converting unicode to flag and flag to unicode
+https://itpro.cz/juniconv/
+🇦🇫  --> \uD83C\uDDE7\uD83C\uDDEF
