@@ -216,3 +216,6 @@ https://useanimations.com/
 #for converting unicode to flag and flag to unicode
 https://itpro.cz/juniconv/
 🇦🇫  --> \uD83C\uDDE7\uD83C\uDDEF
+
+#for storing passwords locally
+git config credential.helper store
