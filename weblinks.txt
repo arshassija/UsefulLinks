@@ -222,3 +222,10 @@ git config credential.helper store
 
 #regex for ip or web comma separated any number
 ^((([\w.]+\.[A-Za-z]{2,4})|(\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3})+),?)*[^,]$
+
+#RxJava
+https://betterprogramming.pub/rxjava-mastering-different-types-of-observables-154ca9849146
+https://blog.mindorks.com/understanding-types-of-observables-in-rxjava-6c3a2d0819c8
+https://medium.com/mindorks/rxjava-types-of-observables-404d75605e35
+https://www.baeldung.com/rxjava-2-flowable
+https://betterprogramming.pub/rxjava-different-ways-of-creating-observables-7ec3204f1e23
