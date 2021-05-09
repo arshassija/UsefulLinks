@@ -229,3 +229,4 @@ https://blog.mindorks.com/understanding-types-of-observables-in-rxjava-6c3a2d081
 https://medium.com/mindorks/rxjava-types-of-observables-404d75605e35
 https://www.baeldung.com/rxjava-2-flowable
 https://betterprogramming.pub/rxjava-different-ways-of-creating-observables-7ec3204f1e23
+https://medium.com/android-news/rxjava-schedulers-what-when-and-how-to-use-it-6cfc27293add
