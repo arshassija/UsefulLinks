@@ -1,0 +1,10 @@
+val jsonString = resources.assets.open("jsonString.json").bufferedReader().readText()
+            val json = JSONObject(jsonString)
+            val array = json.getJSONObject("tbody").getJSONArray("tr")
+            val map = mutableMapOf<String, String>()
+            for (i in 0 until array.length()) {
+                val key = array.getJSONObject(i).getJSONArray("td").getString(0)
+                val value = array.getJSONObject(i).getJSONArray("td").getString(2)
+                map[key] = value
+            }
+            map.toString()
